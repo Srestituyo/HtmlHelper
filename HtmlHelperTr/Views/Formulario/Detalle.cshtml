@@ -1,0 +1,20 @@
+﻿@model HtmlHelperTr.Models.Formulario
+
+@{
+    ViewBag.Title = "Detalle";
+}
+
+<h2>Detalle</h2>
+
+<div>
+    @Html.LabelFor(model=>model.Cedula) @Html.DisplayFor(model=>model.Cedula)<br />
+    @Html.LabelFor(model=>model.Nombre) @Html.DisplayFor(model=>model.Nombre)<br />
+    @Html.LabelFor(model=>model.Apellido) @Html.DisplayFor(model=>model.Apellido)<br />
+    @Html.LabelFor(model=>model.Edad) @Html.DisplayFor(model=>model.Edad)<br />
+    @Html.LabelFor(model=>model.Telefono) @Html.DisplayFor(model=>model.Telefono)<br />
+    @Html.LabelFor(model=>model.Correo) @Html.DisplayFor(model=>model.Correo)<br />
+    @Html.LabelFor(model=>model.Genero) @Html.DisplayFor(model=>model.Genero)<br />
+    @Html.LabelFor(model=>model.Estado) @Html.DisplayFor(model=>model.Estado)<br />
+    @Html.LabelFor(model=>model.Hobbys) @Html.DisplayFor(model=>model.Hobbys)
+
+</div>
